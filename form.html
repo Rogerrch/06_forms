@@ -1,41 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Start of header-->
-    <header>
-
-    </header>
+    <header></header>
     <!--Start of nav-->
-    <nav>
-
-    </nav>
+    <nav></nav>
     <!--Start of main content-->
     <main>
-        <h1>My Practice Form</h1>
-        <form action="" method="POST" enctype="multipart/form-data" name="practiceForm">
+      <!--Feilds-->
+      <h1>My Practice Form</h1>
+      <form
+        action=""
+        method="POST"
+        enctype="multipart/form-data"
+        name="practiceForm"
+      >
+        <fieldset>
+          <legend>Your Name</legend>
+          <label>
+            First name:
+            <input name="first" value="" type="text" placeholder="John"
+          /></label>
+          <br />
 
-            First name: <input name="first" value="" type="text" placeholder="John"><br>
+          <label>
+            Last name:
+            <input name="last" value="" type="text" placeholder="Smith"
+          /></label>
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label> E-mail <input type="email" name="email" value=""/></label>
+          <br />
 
-            E-mail: <input type="email" name="email" value="" ><br>
-            Age: <input type="number" name="age" value="" ><br>
-            Phone: <input type="tel" name="telephone" value="" placeholder="888-888-8888" ><br>
+          <label>
+            Phone:
+            <input
+              type="tel"
+              name="telephone"
+              value=""
+              placeholder="888-888-8888"
+          /></label>
+          <br />
+        </fieldset>
+        <fieldset>
+          <label> Age: <input type="number" name="age" value=""/></label> <br />
+        </fieldset>
+        <!--Radio buttons-->
+        What computer do you own? <br />
+        <fieldset>
+          <label
+            ><input type="radio" name="computer" value="mac" />Macintosh <br />
+          </label>
+          <label
+            ><input type="radio" name="computer" value="windows" />Windows
+            <br />
+          </label>
+          <label
+            ><input type="radio" name="computer" value="android" />Android
+            <br />
+          </label>
+        </fieldset>
 
-            <input type="submit" name="submit" value="subscribe" >
+        <input type="submit" name="submit" value="subscribe" /> <br />
 
-
-
-
-        </form>
-
+        <!--Check boxes-->
+        What Languages do you know? <br />
+        <fieldset>
+          <label
+            ><input type="checkbox" name="eng" value="English" />English</label
+          >
+          <label
+            ><input type="checkbox" name="spn" value="Spanish" />Spanish</label
+          >
+          <label
+            ><input type="checkbox" name="frn" value="French" />French</label
+          >
+          <label
+            ><input type="checkbox" name="ger" value="French" />German</label
+          >
+        </fieldset>
+      </form>
     </main>
     <!--Start of footer-->
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
