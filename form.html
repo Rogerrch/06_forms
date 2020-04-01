@@ -68,8 +68,6 @@
           </label>
         </fieldset>
 
-        <input type="submit" name="submit" value="subscribe" /> <br />
-
         <!--Check boxes-->
         What Languages do you know? <br />
         <fieldset>
@@ -86,6 +84,23 @@
             ><input type="checkbox" name="ger" value="French" />German</label
           >
         </fieldset>
+        <!--Select dropdown-->
+        <div>
+            Where are you from <br>
+          <select name="choice">
+            <option value="UT">Utah</option>
+            <option value="CO">Colorado</option>
+            <option value="NV">Nevada</option>
+          </select>
+        </div>
+
+        Please comment below <br />
+        <textarea name="comments"></textarea>
+
+        <br /><input type="submit" name="submit" value="subscribe" /> <br />
+ <!--Hidden Input-->
+        <input type="hidden" name="website1" value="americanzephyr">
+        <input type="hidden" name="redirect" value="index.html">
       </form>
     </main>
     <!--Start of footer-->
