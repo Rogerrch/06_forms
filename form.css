@@ -32,10 +32,6 @@ h1 {
     font-family: "Source Sans Pro";
   }
 
-.logoCap {
-  font-size: 90%;
-  padding-right: 10%;
-}
 
 figure {
     text-align: center;
@@ -45,6 +41,51 @@ body {
     border-top: 3px solid #64428c;   
   }
   
+  .levantLogo {
+    font-size: 120%;
+    filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+    text-align: center;
+    color: #3b0273;
+    filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+  }
+  .levantLogo img {
+    width: 100%;
+    filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+  }
+  .logoCap {
+    font-size: 90%;
+    padding-right: 10%;
+  }
+  .matImage {
+    min-width: 400px;
+      border-radius: 10px 50px 0px 0px;
+      border: solid 3px #64428c;  
+      margin-top: 30px;
+     
+  }
+  
+  figure {
+   text-align: center;
+  }
+  
+  .blurb {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: #64428c;
+      font: 1rem "Verdana";
+      font-weight: bold;
+      background-image: linear-gradient(0deg, #faa16f80 0%, #F5E7DC 85%);
+      position: relative;
+      bottom: 10px;
+      height: 40px;
+      margin-bottom: 25px;
+      border-radius: 0px 0px 90px 90px;
+      border: solid 3px #64428c; 
+  }
+  a.blurb {
+      text-decoration: none;
+  }
   /* Nav elements */
 #navbar {
     height: 100%;
@@ -96,27 +137,24 @@ form.userInfo fieldset {
   background-color: #aa8abd;
   background-image: linear-gradient(20deg, #64428c 0%, #F5E7DC 85%);
   font-family: "Verdana";
-  font-weight: bold
-  
+  font-weight: bold;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
 }
 
-
-
 form.userInfo legend {
-    font-family: "Verdana";
+font-family: "Verdana";
   font-size: 1rem;
   font-weight: bold;
   color: #f5e7dc;
   background-color: #3b0273;
   border-radius: .5rem;
   padding: .2rem .5rem;
-  
 }
 
 form.userInfo label {
-    display: block;
-    
+    display: block;  
 }
+
 form.userInfo span {
     display: block; 
 }
@@ -131,6 +169,7 @@ form.userInfo span {
     padding: .5rem;
     border-radius: .5rem;
 }
+
 form.userInfo .feild {
     margin-bottom: .5rem;
     background-color: #F5E7DC;
@@ -141,6 +180,7 @@ form.userInfo .feild {
     padding: .5rem;
     border-radius: .5rem;
 }
+
 form.userInfo .feildCount {
     margin-bottom: .5rem;
     max-width: 2rem;
@@ -150,11 +190,13 @@ form.userInfo .feildCount {
     padding: .5rem;
     border-radius: .5rem;
 }
+
 h4 {
     padding-left: 6%;
     font-family: "Verdana"; 
     font-size: .5em;
 }
+
 .otherText {
     all: unset;
     color: #3b0273;
