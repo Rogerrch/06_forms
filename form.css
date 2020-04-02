@@ -253,50 +253,27 @@ h3 {
 /* Send Button */
 .sendButton {
     margin: .8rem;
-    background-color: #64428c;
+    background-color: #3b0273;
     width: 20%;
     min-width: 180px;
     color: #f5e7dc;
     border: none;
     padding: 0.5rem;
     border-radius: 0.5rem;
-}
-.sendButton a{
-    background-color: #faa16f
-}
-/* ref */
-#navbar {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: #64428c;
+    border: solid 2px #aa8abd;
     font-family: "Verdana";
-  }
-  .mynav {
-    display: flex;
-    list-style-type: none;
-    font-family: "Verdana";
-  }
-  
-  .mynav a {
-    color: #f5e7dc;
-    font-weight: 500;
-    padding: 15px 40px;
-    text-decoration: none;
-  }
-  .active a {
+  font-weight: bold;
+}
+
+.sendButton:hover {
+    background-color: #aa8abd;
+    color: #3b0273;
+    border: solid 2px #3b0273;
+}
+
+.sendButton:active {
     background-color: #faa16f;
     color: #3b0273;
     font-weight: 600;
-    transition: 0.4s;
-  }
-  
-  #navbar a:hover {
-    background-color: #aa8abd;
-    transition: 0.4s;
-    font-weight: 600;
-  }
-  a:hover {
-    color: #3b0273;
-    transition: color, 0.4s;
-  }
+    transition: 0.4s;  
+}
