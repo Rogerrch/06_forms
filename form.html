@@ -4,10 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
+    <link href="form.css" rel="stylesheet" />
   </head>
   <body>
     <!--Start of header-->
-    <header></header>
+    <header>
+      <figure class="levantLogo">
+        <img src="http://dmg2120.americanzephyr.net/images/Levant_sm.png"
+          alt="Levant Logo"
+        />
+        <figcaption class=logoCap>
+          <i><b>Rest Assured, on this Healthy Foundation</b></i>
+        </figcaption>
+      </figure>
+  </header>
+    
     <!--Start of nav-->
     <nav></nav>
     <!--Start of main content-->
@@ -15,64 +26,73 @@
       <!--Feilds-->
       <h1>My Practice Form</h1>
       <form
-        action=""
+        class="userInfo"
+        action="EmailForm.php"
         method="POST"
         enctype="multipart/form-data"
-        name="practiceForm"
+        name="levantForm"
       >
+        <!--Feild set1 user name-->
         <fieldset>
           <legend>Your Name</legend>
           <label>
-           <span> First name: </span>
-            <input name="first" value="" type="text"  placeholder="John" required
+            <span> First name: </span>
+            <input class="feild" name="first" value="" type="text" placeholder="John" required
           /></label>
-          <br />
+          
 
           <label>
-            <span>  Last name: </span>
-            <input name="last" value="" type="text" placeholder="Smith" required
+            <span> Last name: </span>
+            <input class="feild" name="last" value="" type="text" placeholder="Smith" required
           /></label>
-          <br />
+          
         </fieldset>
+        <!--Feild set1 user contact info-->
         <fieldset>
           <legend>Contact Information</legend>
-          <label> E-mail <input type="email" name="email" value=""/></label>
-          <br />
+          <label> 
+            <span>E-mail</span>
+             <input type="email" name="email" value=""/></label>
+          
 
           <label>
-            Phone:
+            <span>Phone:</span>
             <input
               type="tel"
               name="telephone"
               value=""
               placeholder="888-888-8888"
           /></label>
-          <br />
+          
         </fieldset>
         <fieldset>
-          <label> Age: <input type="number" name="age" value=""/></label> <br />
+          <label> Beds in you home: <input type="number" name="age" value=""/></label> 
         </fieldset>
-<!-- Span-->
-        <sapn>Area Code: </sapn><input type="text" name="name" value="" required pattern="[0-9] {3}"> (3 digits) <br>
+        <!-- Span-->
+        <sapn>Area Code: </sapn
+        ><input type="text" name="name" value="" required pattern="[0-9] {3}" />
+        (3 digits) 
         <!--Radio buttons-->
-        What computer do you own? <br />
+       
         <fieldset>
+          <legand>What computer do you own?</legand>
           <label
-            ><input type="radio" name="computer" value="mac" />Macintosh <br />
+            ><input type="radio" name="computer" value="mac" />Macintosh 
           </label>
           <label
             ><input type="radio" name="computer" value="windows" />Windows
-            <br />
+            
           </label>
           <label
             ><input type="radio" name="computer" value="android" />Android
-            <br />
+            
           </label>
         </fieldset>
 
         <!--Check boxes-->
-        What Languages do you know? <br />
+        
         <fieldset>
+          <legend>Languages do you know? </legend> 
           <label
             ><input type="checkbox" name="eng" value="English" />English</label
           >
@@ -88,7 +108,7 @@
         </fieldset>
         <!--Select dropdown-->
         <div>
-            Where are you from <br>
+          Where are you from 
           <select name="choice">
             <option value="UT">Utah</option>
             <option value="CO">Colorado</option>
@@ -96,13 +116,13 @@
           </select>
         </div>
 
-        Please comment below <br />
+        Please comment below 
         <textarea name="comments"></textarea>
 
-        <br /><input type="submit" name="submit" value="subscribe" /> <br />
- <!--Hidden Input-->
-        <input type="hidden" name="website1" value="americanzephyr">
-        <input type="hidden" name="redirect" value="index.html">
+        <input type="submit" name="submit" value="send" class="sendButton" /> 
+        <!--Hidden Input-->
+        <input type="hidden" name="website1" value="americanzephyr" />
+        <input type="hidden" name="redirect" value="index.html" />
       </form>
     </main>
     <!--Start of footer-->

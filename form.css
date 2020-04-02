@@ -1,0 +1,42 @@
+/* style guide 
+Colors
+-Principal colors- #F5E7DC, #aa8abd, #3B0273
+-Dropshadow- #F5E7DC75
+-Active state- #FAA16F
+-hyperlink- blue
+-Font family- 'Source Sans Pro' 
+*/
+
+/*Header elements*/
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #aa8abd;
+  border-bottom: 3px solid #3b0273;
+}
+
+.logoCap {
+  font-size: 90%;
+  padding-right: 10%;
+}
+
+/*feildset elements*/
+form.userInfo fieldset {
+  border: 2px solid #3b0273;
+  border-radius: 1rem;
+  padding: 1rem 2%;
+  margin: 2% 0 0 2%;
+  background-color: #aa8abd;
+}
+
+form.userInfo legend {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #3b0273;
+}
+
+form.userInfo label {
+    display: block;
+}
+
