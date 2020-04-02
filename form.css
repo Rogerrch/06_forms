@@ -7,6 +7,15 @@ Colors
 -Font family- 'Source Sans Pro' 
 */
 
+
+body, h1, h2, h3, h4, h5, h6, dl {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Source Sans Pro";
+    
+  }
+
 /*Header elements*/
 
 header {
@@ -21,14 +30,62 @@ header {
   padding-right: 10%;
 }
 
+figure {
+    text-align: center;
+}
+body {
+    background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 85%);
+    border-top: 3px solid #64428c;   
+  }
+  
+  /* Nav elements */
+#navbar {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #64428c;
+    font-family: "Verdana";
+  }
+  .mynav {
+    display: flex;
+    list-style-type: none;
+    font-family: "Verdana";
+  }
+  
+  .mynav a {
+    color: #f5e7dc;
+    font-weight: 500;
+    padding: 15px 40px;
+    text-decoration: none;
+  }
+  .active a {
+    background-color: #faa16f;
+    color: #3b0273;
+    font-weight: 600;
+    transition: 0.4s;
+    
+  }
+  
+  #navbar a:hover {
+    background-color: #aa8abd;
+    transition: 0.4s;
+    font-weight: 600;
+  }
+  a:hover {
+    color: #3b0273;
+    transition: color, 0.4s;
+    
+  }
+
 /*feildset elements*/
 form.userInfo fieldset {
   border: 2px solid #3b0273;
   border-radius: 1rem;
-  padding: 1rem 2%;
+  padding: 1rem 2rem;
   margin: 2% 0 0 2%;
   background-color: #aa8abd;
 }
+
 
 form.userInfo legend {
   font-size: 0.7rem;
@@ -36,7 +93,83 @@ form.userInfo legend {
   color: #3b0273;
 }
 
-form.userInfo label {
-    display: block;
+.contactInfo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
+.contactAplha {
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+form.userInfo label {
+    display: block;
+    
+}
+form.userInfo span {
+    display: block; 
+}
+
+#state {
+    margin-bottom: .5rem;
+    background-color: #F5E7DC;
+    width: 21.1%;
+    min-width: 250px;
+    color: #3b0273;
+    border: none;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+form.userInfo .feild {
+    margin-bottom: .5rem;
+    background-color: #F5E7DC;
+    width: 20%;
+    min-width: 180px;
+    color: #3b0273;
+    border: none;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+form.userInfo .feildCount {
+    margin-bottom: .5rem;
+    max-width: 2rem;
+    background-color: #F5E7DC;
+    color: #3b0273;
+    border: none;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+/*Submit button*/
+
+/* Footer Styling */
+
+footer {
+    background-color: #F5E7DC;
+    border-top: 3px solid #aa8abd;  
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 10pt;
+    font-weight: 100;
+    background-color: #64428c;
+    color: #F5E7DC;
+    border-top: solid 3px #aa8abd;
+}
+.lowLevantLogo {
+max-width: 300px;
+padding-top: 20px;
+}
+.tagLine {
+    font-size: .80rem;
+  text-align: center;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  color: #3b0273;
+  filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+}
