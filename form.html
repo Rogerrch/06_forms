@@ -79,8 +79,7 @@
         <!--Feild set1 user contact info-->
         <fieldset>
           <legend>Contact Information</legend>
-          <div class="contactInfo">
-            <div class="contactAlpha">
+          
           <label>
             <span>E-mail</span>
             <input class="feild" type="email" name="email" value=""
@@ -99,8 +98,7 @@
             <span class="spanLower">Address:</span>
             <input class="feild" type="add" name="address" value=""
           /></label>
-        </div>
-        <div class="contactBeta">
+       
           <label>
             <span class="spanLower">City:</span>
             <input class="feild" type="add" name="city" value=""
@@ -181,12 +179,11 @@
               maxLength="9">
             <span><h4>(5 digits -  plus 4 opptional)</h4></span>
           </label>
-        </div>
-        </div>
+        
         </fieldset>
 
         <fieldset>
-          <legend>What Levant product did you purches?</legend>
+          <legend>What product did you purches?</legend>
           
           <div class="sku"></div>
           <label
@@ -218,7 +215,7 @@
       </fieldset>
 
         <fieldset>
-          <legend>Tell us about your mattress</legend>
+          <legend>Tell us about your mattress.</legend>
           <label>
             <span>How old is your mattress:</span>
             <input class="feildCount" type="number" name="age" value=""
@@ -270,13 +267,21 @@
           <textarea class="otherText"name="comments" maxLength="50" placeholder="comment here"></textarea>
         </fieldset>
 
-        Please comment below
-        <textarea name="comments"></textarea>
+        <fieldset>
+          <legend>Anything else you would like to tell us?</legend>
+  
+          <textarea class="commentText"name="comments" maxLength="500" placeholder="comment here"></textarea>
+        <label class="submit">
+         <a>
+           <input class="sendButton" type="submit" name="submit" value="send"/>
+          </a>
+        </label>
+        </fieldset>
 
-        <input type="submit" name="submit" value="send" class="sendButton" />
         <!--Hidden Input-->
         <input type="hidden" name="website1" value="americanzephyr" />
         <input type="hidden" name="redirect" value="index.html" />
+      
       </form>
     </main>
     <!--Start of footer-->
