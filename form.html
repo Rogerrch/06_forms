@@ -174,53 +174,61 @@
               required
               pattern="[0-9] {5}"
               maxLength="9">
-            <span>(5 digits - optional 4 digets)</span>
+            <span><h4>(5 digits -  plus 4 opptional)</h4></span>
           </label>
         </div>
         </div>
         </fieldset>
         <fieldset>
+          <legend>Tell us about your mattress</legend>
           <label>
             <span>Number of beds in your home:</span>
             <input class="feildCount" type="number" name="age" value=""
           /></label>
+          <span>What brands do you own</span>
+          <label
+            ><input type="checkbox" name="eng" value="English" />Serta</label
+          >
+          <label
+            ><input type="checkbox" name="spn" value="Spanish" />Tempur-Pedic</label
+          >
+          <label
+            ><input type="checkbox" name="frn" value="French" />Sealy</label
+          >
+          <label
+            ><input type="checkbox" name="ger" value="German" />Beautyrest</label
+          >
         </fieldset>
 
         <!--Radio buttons-->
 
         <fieldset>
-          <legand>What Brand of mattress do you sleep on?</legand>
+          <legend>How did you learn about Levant?</legend>
           <label
-            ><input type="radio" name="computer" value="Serta" />Serta
+            ><input type="radio" name="computer" value="TV" />TV comercial
           </label>
           <label
-            ><input type="radio" name="computer" value="tempur" />Tempur-Pedic
+            ><input type="radio" name="computer" value="Radio" />Radio
           </label>
           <label
-            ><input type="radio" name="computer" value="sealy" />Sealy
+            ><input type="radio" name="computer" value="Mag" />Magazine
           </label>
           <label
-            ><input type="radio" name="computer" value="beauty" />Beautyrest
+            ><input type="radio" name="computer" value="web" />Online
           </label>
+          <label
+            ><input type="radio" name="computer" value="retail" />Retialer
+          </label>
+          <label
+            ><input type="radio" name="computer" value="WOM" />Word of Mouth
+          </label>
+          <label
+            ><input  type="radio" name="computer" value="oth" />Other
+          </label>
+          <textarea class="otherText"name="comments" maxLength="50" placeholder="breife"></textarea>
         </fieldset>
 
-        <!--Check boxes-->
-
-        <fieldset>
-          <legend>Languages do you know?</legend>
-          <label
-            ><input type="checkbox" name="eng" value="English" />English</label
-          >
-          <label
-            ><input type="checkbox" name="spn" value="Spanish" />Spanish</label
-          >
-          <label
-            ><input type="checkbox" name="frn" value="French" />French</label
-          >
-          <label
-            ><input type="checkbox" name="ger" value="German" />German</label
-          >
-        </fieldset>
+        
     
 
         Please comment below

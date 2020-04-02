@@ -78,31 +78,30 @@ body {
   }
 
 /*feildset elements*/
+
+
 form.userInfo fieldset {
+    color: #3b0273;
   border: 2px solid #3b0273;
   border-radius: 1rem;
   padding: 1rem 2rem;
-  margin: 2% 0 0 2%;
+  margin: 2%;
   background-color: #aa8abd;
+  font-family: "Verdana";
+  font-weight: bold
+  
 }
 
 
 form.userInfo legend {
-  font-size: 0.7rem;
+    font-family: "Verdana";
+  font-size: 1rem;
   font-weight: bold;
-  color: #3b0273;
-}
-
-.contactInfo {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.contactAplha {
-    min-width: 300px;
-    display: flex;
-    justify-content: flex-start;
+  color: #f5e7dc;
+  background-color: #3b0273;
+  border-radius: .5rem;
+  padding: .2rem .5rem;
+  
 }
 
 form.userInfo label {
@@ -116,8 +115,8 @@ form.userInfo span {
 #state {
     margin-bottom: .5rem;
     background-color: #F5E7DC;
-    width: 21.1%;
-    min-width: 250px;
+    width: 21.5%;
+    min-width: 196px;
     color: #3b0273;
     border: none;
     padding: .5rem;
@@ -142,6 +141,19 @@ form.userInfo .feildCount {
     padding: .5rem;
     border-radius: .5rem;
 }
+h4 {
+    padding-left: 6%;
+    font-family: "Verdana"; 
+    font-size: .5em;
+}
+.otherText {
+    color: #3b0273;
+  
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #F5E7Db;
+}
+
 
 /*Submit button*/
 
