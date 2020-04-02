@@ -184,25 +184,62 @@
         </div>
         </div>
         </fieldset>
+
+        <fieldset>
+          <legend>What Levant product did you purches?</legend>
+          
+          <div class="sku"></div>
+          <label
+            ><input type="radio" name="lev" value="CK" />Cal.King</label
+          >
+          <label
+            ><input type="radio" name="lev" value="K" />King</label
+          >
+          <label
+            ><input type="radio" name="lev" value="Q" />Queen</label
+          >
+          <label
+            ><input type="radio" name="lev" value="D" />Double/Full</label
+          >
+          <label
+            ><input type="radio" name="lev" value="T" />Twin</label
+          >
+          <label
+            ><input type="radio" name="lev" value="TL" />Twin Long</label
+          >
+        </div> <br>
+        <label>
+          <span class="spanLower">Registration ID:</span>
+          <input class="feild" type="add" name="PID" value=""
+          required
+          pattern="[0-9 a-z A-Z] {12}"
+          maxLength="12"
+        /></label>
+      </fieldset>
+
         <fieldset>
           <legend>Tell us about your mattress</legend>
           <label>
-            <span>Number of beds in your home:</span>
+            <span>How old is your mattress:</span>
             <input class="feildCount" type="number" name="age" value=""
           /></label>
-          <span>What brands do you own</span>
+          <span>What brand is it:</span>
           <label
-            ><input type="checkbox" name="eng" value="English" />Serta</label
+            ><input type="checkbox" name="mattress" value="serta" />Serta</label
           >
           <label
-            ><input type="checkbox" name="spn" value="Spanish" />Tempur-Pedic</label
+            ><input type="checkbox" name="mattress" value="tempur" />Tempur-Pedic</label
           >
           <label
-            ><input type="checkbox" name="frn" value="French" />Sealy</label
+            ><input type="checkbox" name="mattress" value="sealy" />Sealy</label
           >
           <label
-            ><input type="checkbox" name="ger" value="German" />Beautyrest</label
+            ><input type="checkbox" name="mattress" value="beauty" />Beautyrest</label
           >
+          <label
+            ><input type="checkbox" name="mattress" value="other" />Other</label
+          >
+          <textarea class="otherText"name="comments" maxLength="50" placeholder="comment here"></textarea>
         </fieldset>
 
         <!--Radio buttons-->

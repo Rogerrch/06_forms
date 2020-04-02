@@ -94,6 +94,7 @@ form.userInfo fieldset {
   padding: 1rem 2rem;
   margin: 2%;
   background-color: #aa8abd;
+  background-image: linear-gradient(20deg, #64428c 0%, #F5E7DC 85%);
   font-family: "Verdana";
   font-weight: bold
   
@@ -123,7 +124,7 @@ form.userInfo span {
 #state {
     margin-bottom: .5rem;
     background-color: #F5E7DC;
-    width: 21.5%;
+    width: 21.2%;
     min-width: 196px;
     color: #3b0273;
     border: none;
@@ -155,12 +156,18 @@ h4 {
     font-size: .5em;
 }
 .otherText {
+    all: unset;
     color: #3b0273;
-  
-  border-radius: 1rem;
-  padding: 1rem;
+    width: 20%;
+    min-width: 180px;
+    height: 30px;
+    font-size: .8rem;
+  border-radius: .5rem;
+  padding: .05rem .8rem;
   background-color: #F5E7Db;
 }
+
+
 
 
 /*Submit button*/
