@@ -24,6 +24,13 @@ header {
   background-color: #aa8abd;
   border-bottom: 3px solid #3b0273;
 }
+h1 {
+    color: #3b0273;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-family: "Source Sans Pro";
+  }
 
 .logoCap {
   font-size: 90%;
@@ -91,6 +98,7 @@ form.userInfo fieldset {
   font-weight: bold
   
 }
+
 
 
 form.userInfo legend {
