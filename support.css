@@ -10,12 +10,6 @@ Colors
 /* css reset */
 
 body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 dl {
   max-width: 100%;
   padding: 0;
@@ -23,18 +17,6 @@ dl {
   font-family: "Source Sans Pro";
   color: #3b0273;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem;
-}
-
 
 .hLink {
   color: blue;
@@ -164,24 +146,6 @@ legend {
   margin-bottom: 1.5rem;
  }
  
-
-/* Images */
-.levantLogo {
-  font-size: 120%;
-  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
-  text-align: center;
-  color: #3b0273;
-  filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
-}
-.levantLogo img {
-  width: 100%;
-  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
-}
-.logoCap {
-  font-size: 90%;
-  padding-right: 10%;
-}
-
 /* Footer Styling */
 footer {
   background-color: #f5e7dc;
