@@ -165,7 +165,6 @@ h4 {
 }
 
 textarea.verbose1 {
-  all: unset;
   color: #3b0273;
   width: 20%;
   min-width: 180px;
@@ -177,7 +176,6 @@ textarea.verbose1 {
 }
 
 textarea.verbose2 {
-    all: unset;
     color: #3b0273;
     width: 20%;
     min-width: 180px;
