@@ -46,7 +46,7 @@ header {
 .mynav a {
   color: #f5e7dc;
   font-weight: 500;
-  padding: 15px 40px;
+  padding: 15px 1.3rem;
   text-decoration: none;
 }
 .active a {
@@ -54,7 +54,6 @@ header {
   color: #3b0273;
   font-weight: 600;
   transition: 0.4s;
-  
 }
 
 #navbar a:hover {
@@ -65,7 +64,6 @@ header {
 a:hover {
   color: #3b0273;
   transition: color, 0.4s;
-  
 }
 
 /* gallay */

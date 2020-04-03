@@ -28,11 +28,17 @@
      <!--Start of navigation-->
      <nav id="navbar">
       <ul class="mynav">
+        <li>
+          <a href="store.html">Store</a>
+        </li>   
+          <li>
+            <a href="index.html">Home</a>
+          </li> 
           <li>
             <a href="support.html">Support</a>
           </li>
           <li class="active">
-            <a href="form.html">Registration</a>
+            <a href="form.html">Register</a>
           </li>   
       </ul>
       <div class="keepOpen"></div>
@@ -79,7 +85,7 @@
           
           <label>
             <span>E-mail</span>
-            <input class="feild" type="email" name="email" value=""
+            <input class="feild" type="email" name="email" value="" required
           /></label>
 
           <label>
@@ -90,15 +96,16 @@
               name="telephone"
               value=""
               placeholder="888-888-8888"
+              required
           /></label>
           <label>
             <span class="spanLower">Address:</span>
-            <input class="feild" type="add" name="address" value=""
+            <input class="feild" type="add" name="address" value="" required
           /></label>
        
           <label>
             <span class="spanLower">City:</span>
-            <input class="feild" type="add" name="city" value=""
+            <input class="feild" type="add" name="city" value="" required
           /></label>
           <label> <span class="spanLower">State/District/Teritory:</span>
           <select id="state" name="state"
@@ -171,10 +178,10 @@
               type="text"
               name="name"
               value="00000"
-              required
-              pattern="[0-9] {5}"
-              maxLength="9">
-            <span><h4>(5 digits -  plus 4 opptional)</h4></span>
+              pattern="[0-9]{5}"
+              maxLength="5"   
+              required>
+            <span><h4></h4></span>
           </label>
         
         </fieldset>
@@ -204,9 +211,9 @@
         </div> <br>
         <label>
           <span class="spanLower">Registration ID:</span>
-          <input class="feild" type="add" name="PID" value=""
+          <input class="feild" type="text" name="PID" value="" placeholder="12 digit code"
           required
-          pattern="[0-9 a-z A-Z] {12}"
+          pattern="[0-9a-z]{12}"
           maxLength="12"
         /></label>
       </fieldset>
@@ -214,9 +221,9 @@
         <fieldset>
           <legend>Tell us about your mattress.</legend>
           <label>
-            <span>How old is your mattress:</span>
+            <span>How old is your mattress?</span>
             <input class="feildCount" type="number" name="age" value=""
-          /></label>
+          /> years old</label>
           <span>What brand is it:</span>
           <label
             ><input type="checkbox" name="mattress" value="serta" />Serta</label
@@ -268,10 +275,8 @@
           <legend>Anything else you would like to tell us?</legend>
   
           <textarea class="commentText"name="comments" maxLength="500" placeholder="comment here"></textarea>
-        <div class="submit">
-         <a>
-           <input class="sendButton" type="submit" name="send" value="Submit"/>
-          </a>
+        <div>
+           <input class="sendButton" type="submit" name="send email" value="Submit"/>
         </div>
         </fieldset>
 

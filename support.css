@@ -9,97 +9,108 @@ Colors
 
 /* css reset */
 
-body, h1, h2, h3, h4, h5, h6, dl {
-    max-width: 100%;
-    padding: 0;
-    margin: 0;
-    font-family: "Source Sans Pro";
-    color: #3b0273;
-  }
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro";
+  color: #3b0273;
+}
 
-  main {
-    display: flex;
-    justify-content: center;
-    
-  }
+main {
+  display: flex;
+  justify-content: center;
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
 
-  .guppie {
-    font-weight: bold;
-  }
+.guppie {
+  font-weight: bold;
+}
 
-  .roe {
-    margin-bottom: 1.5rem;
-    font-weight: normal;
-  }
+.roe {
+  margin-bottom: 1.5rem;
+  font-weight: normal;
+}
 
-  .hLink {
-    color: blue;
-  }
+.hLink {
+  color: blue;
+}
 
-  h1 {
-    color: #3b0273;
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 3rem;
-    font-family: "Source Sans Pro";
-  }
-  /*Header elements*/
-  
-  header {
-    display: flex;
-    justify-content: center;
-    background-color: #aa8abd;
-    border-bottom: 3px solid #3b0273;
-  }
+h1 {
+  color: #3b0273;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-family: "Source Sans Pro";
+}
+/*Header elements*/
 
-  /* Nav elements */
-  #navbar {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: #64428c;
-    font-family: "Verdana";
-  }
-  .mynav {
-    display: flex;
-    list-style-type: none;
-    font-family: "Verdana";
-  }
-  
-  .mynav a {
-    color: #f5e7dc;
-    font-weight: 500;
-    padding: 15px 40px;
-    text-decoration: none;
-  }
-  .active a {
-    background-color: #faa16f;
-    color: #3b0273;
-    font-weight: 600;
-    transition: 0.4s;
-  }
-  
-  #navbar a:hover {
-    background-color: #aa8abd;
-    transition: 0.4s;
-    font-weight: 600;
-  }
-  a:hover {
-    color: #3b0273;
-    transition: color, 0.4s;
-  }
-  
-  /* lists */
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #aa8abd;
+  border-bottom: 3px solid #3b0273;
+}
+
+/* Nav elements */
+#navbar {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #64428c;
+  font-family: "Verdana";
+}
+.mynav {
+  display: flex;
+  list-style-type: none;
+  font-family: "Verdana";
+}
+
+.mynav a {
+  color: #f5e7dc;
+  font-weight: 500;
+  padding: 15px 1.3rem;
+  text-decoration: none;
+}
+.active a {
+  background-color: #faa16f;
+  color: #3b0273;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #aa8abd;
+  transition: 0.4s;
+  font-weight: 600;
+}
+a:hover {
+  color: #3b0273;
+  transition: color, 0.4s;
+}
+
+/* lists */
 
 body {
-    background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 85%);
-    border-top: 3px solid #64428c;   
+  background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
+  border-top: 3px solid #64428c;
 }
 /* Images */
 .levantLogo {
@@ -118,25 +129,22 @@ body {
   padding-right: 10%;
 }
 
-  
-  /* Footer Styling */
-  figure {
-    text-align: center;
-   
-   }
-   
-  footer {
-      background-color: #F5E7DC;
-      border-top: 3px solid #aa8abd;  
-  }
-  
-  h3 {
-      display: flex;
-      justify-content: center;
-      font-size: 10pt;
-      font-weight: 100;
-      background-color: #64428c;
-      color: #F5E7DC;
-      border-top: solid 3px #aa8abd;
-  }
-  
+/* Footer Styling */
+figure {
+  text-align: center;
+}
+
+footer {
+  background-color: #f5e7dc;
+  border-top: 3px solid #aa8abd;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 10pt;
+  font-weight: 100;
+  background-color: #64428c;
+  color: #f5e7dc;
+  border-top: solid 3px #aa8abd;
+}
