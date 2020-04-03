@@ -54,9 +54,7 @@ body {
     font-size: 90%;
     padding-right: 10%;
 }
-figure {
-  text-align: center;
-}
+
 
 /* Nav elements */
 #navbar {
@@ -97,11 +95,11 @@ a:hover {
 
 /*feildset elements*/
 form.userInfo fieldset {
-  color: #3b0273;
-  border: 2px solid #3b0273;
-  border-radius: .5rem 2rem 2rem 2rem;
-  padding: 1rem 2rem;
-  margin: 2%;
+    color: #3b0273;
+    border: 2px solid #3b0273;
+    border-radius: .5rem 2rem 2rem 2rem;
+    padding: 1rem 2rem;
+    margin: 2%;
   background-image: linear-gradient(20deg, #64428c 0%, #f5e7dc 85%);
   font-family: "Verdana";
   font-weight: bold;
@@ -207,7 +205,10 @@ h3 {
   color: #f5e7dc;
   border-top: solid 3px #aa8abd;
 }
-.lowLevantLogo {
+figure {
+    text-align: center;
+  }
+.footLogoStyle {
   max-width: 300px;
   padding-top: 20px;
 }

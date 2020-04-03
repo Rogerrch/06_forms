@@ -28,6 +28,34 @@ header {
   background-color: #aa8abd;
   border-bottom: 3px solid #3b0273;
 }
+h1 {
+  color: #3b0273;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-family: "Source Sans Pro";
+}
+
+
+body {
+  background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
+  border-top: 3px solid #64428c;
+}
+
+.levantLogo {
+    filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+    text-align: center;
+    color: #3b0273;
+    filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+  }
+  .levantLogo img {
+    width: 100%;
+    filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+  }
+  .logoCap {
+    font-size: 90%;
+    padding-right: 10%;
+}
 
 /* Nav elements */
 #navbar {
@@ -157,7 +185,10 @@ h3 {
     color: #F5E7DC;
     border-top: solid 3px #aa8abd;
 }
-.lowLevantLogo {
+figure {
+  text-align: center;
+}
+.footLogoStyle {
 max-width: 300px;
 padding-top: 20px;
 }
